@@ -1,6 +1,4 @@
-// Заменяет элемент в массиве
-function correct(string)
-{
-  return string.replace(/1/g, "I").replace(/5/g, "S").replace(/0/g, "O");
-	
-}
+// случайный массив
+function howMuchILoveYou(nbPetals) {
+    return ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'][(nbPetals -1)%6];
+   }
