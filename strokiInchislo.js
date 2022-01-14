@@ -1,6 +1,7 @@
 // преобразует число в строки
-function numberToString(num) {
-    // Return a string of the number here!
-    let n = String(num);
-    return n;
-  }
+const myArray = [];
+let i = 6;
+while (i >= 0){
+  myArray.push(i)
+  i--;
+}
