@@ -1,0 +1,6 @@
+// фильтр массива удаляет птиц
+function gooseFilter (birds) {
+    var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+    return birds.filter(bird => geese.indexOf(bird) === -1);
+    // return an array containing all of the strings in the input array except those that match strings in geese
+  };
